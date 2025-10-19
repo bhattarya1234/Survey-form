@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  background: url("Neon Triangle seamless pattern background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35em;
+  background: #3230628e;
+  padding: 3vh;
+  backdrop-filter: blur(5px);
+  border-radius: 6px;
+}
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 2vh;
+}
+p {
+  font-style: italic;
+  font-size: 1.125rem;
+  padding: 2vh;
+  margin-bottom: 2em;
+
+}
+label {
+  font-size: 1.125rem;
+padding: 4vh;
+
+}
+input{
+  width: 70%;
+  padding: 2vh;
+  outline: none;
+  background: #ffffff00;
+  border: none;
+  border-bottom: 2px solid rgb(255, 9, 9);
+  color:blueviolet;
+  letter-spacing: .5em;
+  line-height: 2em;
+
+}
+select {
+     width: 50%;
+  padding: 2vh;
+  outline: none;
+  background: #0c0a11;
+  border: none;
+  color:blueviolet;
+  letter-spacing: .5em;
+  line-height: 2em;
+  border-radius: 9px;
+  cursor: pointer;
+
+}
+
+.radio{
+    margin-top: 2vh;
+   width: 20%;
+   margin-bottom: 2vh;
+  transform: scale(1.2);
+
+}
+.radio2 {
+  width: 20px;
+  height: 20px;
+  accent-color: #ff0099;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+#submit{
+background: #37af65;
+border: none;
+ display: block;
+  width: 100%;
+  padding: 0.75rem;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 2vh;
+}
